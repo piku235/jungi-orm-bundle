@@ -1,0 +1,23 @@
+{
+    "name": "jungi/orm-bundle",
+    "description": "High efficient object relational mapper for symfony",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Piotr Kugla",
+            "email": "piku235@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "jungi/orm": "dev-master",
+        "doctrine/doctrine-bundle": "^1.11"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jungi\\OrmBundle\\": "src/"
+        }
+    }
+}
