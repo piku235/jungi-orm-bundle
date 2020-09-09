@@ -13,7 +13,7 @@
     "prefer-stable": true,
     "require": {
         "jungi/orm": "dev-master",
-        "doctrine/doctrine-bundle": "^1.11"
+        "doctrine/doctrine-bundle": "^1.11|^2.0"
     },
     "autoload": {
         "psr-4": {
